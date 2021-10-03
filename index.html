@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <title>WoodStock</title>
+        <!-- FontsAwesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="container-fluid">
+                    <div class="header__row">
+                        <!-- Menu -->
+                        <div class="header__menu">
+                            <div class="menu__btn">
+                                <!-- <img src="images/menu-btn.svg" alt="" /> -->
+                                <div class="hamburger-menu">
+                                    <input id="menu__toggle" type="checkbox" />
+                                    <label class="menu__btn" for="menu__toggle">
+                                        <span></span>
+                                    </label>
+
+                                    <ul class="menu__box">
+                                        <li><a class="menu__item" href="#">Shop</a></li>
+                                        <li><a class="menu__item" href="#">Customize</a></li>
+                                        <li><a class="menu__item" href="#">Sale</a></li>
+                                        <li><a class="menu__item" href="#">Contact
+                                                Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="desktop__menu">
+                                <li>
+                                    <a href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Customize</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sale</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact US</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="#">
+                                <img src="images/logo.svg" alt="logo" />
+                            </a>
+                        </div>
+
+                        <!-- Header Actions -->
+                        <div class="header__right">
+                            <ul class="header__actions d-flex">
+                                <li>
+                                    <a href="#" class="search__icon">
+                                        <img src="images/search-icon.svg" alt=""
+                                            />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="profile__icon">
+                                        <img src="images/profile.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="favourite__icon">
+                                        <img src="images/heart-icon.svg" alt=""
+                                            />
+                                        <span class="counter__badge">4</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="cart__icon">
+                                        <img src="images/cart-icon.svg" alt=""
+                                            />
+                                        <span class="counter__badge">2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header End -->
+
+            <div class="site__hero">
+                <div id="carouselExampleCaptions" class="carousel slide
+                    carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions"
+                            data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions"
+                            data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions"
+                            data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slide__img">
+                                <img src="images/slide-1.png" class="d-block
+                                    w-100" alt="slide-1">
+                                <div class="price__strip">
+                                    <p>LIVING ROOM DECOR COLLECTION</p>
+                                    <p>STARTS FROM $ 114.5</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>HANDPICKED FOR YOU</h1>
+                                <a href="#" class="btn btn-secondary">Explore</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide__img">
+                                <img src="images/slide-2.jpg" class="d-block
+                                    w-100" alt="slide-1">
+                                <div class="price__strip">
+                                    <p>LIVING ROOM DECOR COLLECTION</p>
+                                    <p>STARTS FROM $ 114.5</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>HANDPICKED FOR YOU</h1>
+                                <a href="#" class="btn btn-secondary">Explore</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide__img">
+                                <img src="images/slide-3.jpg" class="d-block
+                                    w-100" alt="slide-1">
+                                <div class="price__strip">
+                                    <p>LIVING ROOM DECOR COLLECTION</p>
+                                    <p>STARTS FROM $ 114.5</p>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>HANDPICKED FOR YOU</h1>
+                                <a href="#" class="btn btn-secondary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev"
+                        href="#carouselExampleCaptions" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next"
+                        href="#carouselExampleCaptions" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <ul class="social__list">
+                    <li>
+                        <a href="" class="fa fa-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-pinterest-p"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-youtube-play"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-facebook"></a>
+                    </li>
+                </ul>
+                <a href="#content" class="scroll__btn">Scroll</a>
+            </div>
+            <!-- Site hero end -->
+
+            <div class="site__content" id="content">
+                <section class="rooms__section">
+                    <div class="container">
+                        <div class="section__title">
+                            <h2>SHOP BY ROOM</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="rooms__row">
+                                    <div class="room__box bedroom">
+                                        <img src="images/room-img1.png" alt=""
+                                            />
+                                        <a href="#" class="link">
+                                            <span>Bedroom</span>
+                                        </a>
+                                    </div>
+                                    <div class="room__box">
+                                        <img src="images/room-img2.png" alt=""
+                                            />
+                                        <a href="#" class="link">
+                                            <span>Reading Room<img
+                                                    src="images/next-arrow.svg"
+                                                    /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="rooms__row">
+                                    <div class="room__box">
+                                        <img src="images/room-img3.png" alt=""
+                                            />
+                                        <a href="#" class="link">
+                                            <span>Living Room<img
+                                                    src="images/next-arrow.svg"
+                                                    /></span>
+                                        </a>
+                                    </div>
+                                    <div class="room__box">
+                                        <img src="images/room-img4.png" alt=""
+                                            />
+                                        <a href="#" class="link">
+                                            <span>Kitchen<img
+                                                    src="images/next-arrow.svg"
+                                                    /></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Rooms Section End -->
+
+                <section class="products__Section">
+                    <div class="container">
+                        <div class="section__title">
+                            <h2>FEATURED PRODUCTS</h2>
+                            <p>
+                                Select a category with special high-end quality
+                            </p>
+                        </div>
+
+                        <ul class="filter__tabs">
+                            <li><a href="#" class="active" data-filter="*">ALL
+                                    PRODUCTS</a></li>
+                            <li><a href="#" data-filter=".chairs">Chairs</a></li>
+                            <li><a href="#" data-filter=".cabinets">CABINETS</a></li>
+                            <li><a href="#" data-filter=".beds">beds</a></li>
+                        </ul>
+                        <div class="row isotope-gutter">
+                            <div class="product__col col-sm-6 col-lg-4
+                                chairs">
+                                <figure class="product__card">
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-1.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>racer gaming chair</p>
+                                            <span>$ 23.45</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="product__col col-sm-6 col-lg-4
+                                beds">
+                                <figure class="product__card">
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-2.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>MODERN WOOD SOFA</p>
+                                            <span>$ 44.50</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="product__col col-sm-6 col-lg-4
+                                chairs">
+                                <figure class="product__card">
+                                    <span class="badge badge-danger">-25%</span>
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-3.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>OFFICE CHAIR SET</p>
+                                            <span><s>$ 200.50</s></span>
+                                            <span class="text-danger"> $ 150.40</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="product__col col-sm-6 col-lg-4">
+                                <figure class="product__card">
+                                    <span class="badge badge-success">NEW</span>
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-4.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>GLASS TABLE</p>
+                                            <span>$ 200.50</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="product__col col-sm-6 col-lg-4
+                                cabinets">
+                                <figure class="product__card">
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-5.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>WOODEN CABINET</p>
+                                            <span>$ 98.65</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="product__col col-sm-6 col-lg-4
+                                beds">
+                                <figure class="product__card">
+                                    <div class="product__header">
+                                        <div class="view__product">
+                                            <i class="fa fa-eye"
+                                                aria-hidden="true"></i>
+                                            quick view
+                                        </div>
+                                        <div class="favourite__product">
+                                            <i class="fa fa-heart"
+                                                aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__img">
+                                        <img src="images/product-6.png" alt="">
+                                    </div>
+                                    <figcaption class="product__info">
+                                        <div class="product__name__price">
+                                            <p>RED CUSHION SOFA</p>
+                                            <span>$ 50.005</span>
+                                        </div>
+                                        <a href="#" class="buy__now">
+                                            <img src="images/shopping-bag.png"
+                                                alt="" />
+                                            buy Now
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="#" class="show__more">show more</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Products Section End -->
+
+                <section class="discounts__Section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="discount__col">
+                                    <div class="section__title text-left">
+                                        <h2>DISCOUNTS AND SALES</h2>
+                                        <p>
+                                            Follow our promotions and discounts.
+                                            Stay updated so you can buy
+                                            your favorite home furniture at the
+                                            best prices. Hurry up to buy at an
+                                            attractive price!
+                                        </p>
+                                    </div>
+                                    <div class="selling__card">
+                                        <p class="mb-0">Best Selling</p>
+                                        <h3>TRIPOD LIGHTS UP TO 70% OFF</h3>
+                                        <a href="#">
+                                            <span>2 DAYS LEFT</span>
+                                            <svg aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="long-arrow-right"
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                class="svg-inline--fa
+                                                fa-long-arrow-right fa-w-14
+                                                fa-2x"><path fill="#3a3a3a"
+                                                    d="M311.03 131.515l-7.071
+                                                    7.07c-4.686 4.686-4.686
+                                                    12.284 0 16.971L387.887
+                                                    239H12c-6.627 0-12 5.373-12
+                                                    12v10c0 6.627 5.373 12 12
+                                                    12h375.887l-83.928
+                                                    83.444c-4.686 4.686-4.686
+                                                    12.284 0 16.971l7.071
+                                                    7.07c4.686 4.686 12.284
+                                                    4.686 16.97
+                                                    0l116.485-116c4.686-4.686
+                                                    4.686-12.284 0-16.971L328
+                                                    131.515c-4.686-4.687-12.284-4.687-16.97
+                                                    0z" class=""></path>
+                                            </svg>
+                                        </a>
+                                        <img class="img"
+                                            src="images/tripod-img.png" alt=""
+                                            />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="discount__col discount_right_col">
+                                    <div class="selling__card
+                                        selling__card__light">
+                                        <p class="mb-0 text-light">Top Discounts</p>
+                                        <h3 class="mb-0 text-light">SAVE UP TO
+                                            50% OFF </h3>
+                                        <a href="#" class="text-light">
+                                            <span>BUY NOW </span>
+                                            <svg aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="long-arrow-right"
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                class="svg-inline--fa
+                                                fa-long-arrow-right fa-w-14
+                                                fa-2x"><path fill="#3a3a3a"
+                                                    d="M311.03 131.515l-7.071
+                                                    7.07c-4.686 4.686-4.686
+                                                    12.284 0 16.971L387.887
+                                                    239H12c-6.627 0-12 5.373-12
+                                                    12v10c0 6.627 5.373 12 12
+                                                    12h375.887l-83.928
+                                                    83.444c-4.686 4.686-4.686
+                                                    12.284 0 16.971l7.071
+                                                    7.07c4.686 4.686 12.284
+                                                    4.686 16.97
+                                                    0l116.485-116c4.686-4.686
+                                                    4.686-12.284 0-16.971L328
+                                                    131.515c-4.686-4.687-12.284-4.687-16.97
+                                                    0z" class=""></path>
+                                            </svg>
+                                        </a>
+                                        <img class="img" src="images/chair.png"
+                                            alt="" />
+                                    </div>
+                                    <div class="contact__section">
+                                        <h4>STAY UPDATED</h4>
+                                        <p>
+                                            Join our list and get 15% off on
+                                            your first purchase!
+                                        </p>
+                                        <div class="form-group">
+                                            <input class="form-control"
+                                                placeholder="Email address"
+                                                type="email" />
+                                            <button class="subscribe__btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Discounts Section End -->
+
+                <section class="services__section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="servoce__col">
+                                    <img src="images/service-icon1.png" alt=""
+                                        />
+                                    <h5>FAST DELIVERY</h5>
+                                    <p>
+                                        One day delivery available
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="servoce__col">
+                                    <img src="images/service-icon2.png" alt=""
+                                        />
+                                    <h5>HIGH QUALITY</h5>
+                                    <p>
+                                        Best in class manufacturing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="servoce__col">
+                                    <img src="images/service-icon3.png" alt=""
+                                        />
+                                    <h5>RETURN POLICY</h5>
+                                    <p>
+                                        10 day return policy
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="servoce__col">
+                                    <img src="images/service-icon4.png" alt=""
+                                        />
+                                    <h5>24x7 SUPPORT</h5>
+                                    <p>
+                                        Live chat with service support
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Services Section End -->
+
+                <section class="customized__section">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-lg-5">
+                            <div class="idea__col">
+                                <div class="section__title text-left">
+                                    <h2>CUSTOMIZED REQUIREMENTS</h2>
+                                    <span>You Ideate,</span>
+                                    <span>We Create</span>
+                                    <p>
+                                        We take pride in providing customized
+                                        requirements. Understanding every
+                                        client’s
+                                        design needs and provide them with their
+                                        customized needs.
+                                        We work with them to make their
+                                        requirments come to life.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-outline-warning">
+                                    Know More
+                                    <svg aria-hidden="true" focusable="false"
+                                        data-prefix="fal"
+                                        data-icon="long-arrow-right" role="img"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512"
+                                        class="svg-inline--fa
+                                        fa-long-arrow-right fa-w-14 fa-2x"><path
+                                            fill="#B09E80" d="M311.03
+                                            131.515l-7.071 7.07c-4.686
+                                            4.686-4.686 12.284 0 16.971L387.887
+                                            239H12c-6.627 0-12 5.373-12 12v10c0
+                                            6.627 5.373 12 12 12h375.887l-83.928
+                                            83.444c-4.686 4.686-4.686 12.284 0
+                                            16.971l7.071 7.07c4.686 4.686 12.284
+                                            4.686 16.97
+                                            0l116.485-116c4.686-4.686
+                                            4.686-12.284 0-16.971L328
+                                            131.515c-4.686-4.687-12.284-4.687-16.97
+                                            0z" class=""></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="creating__img">
+                                <img src="images/image-8.png" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Customized Section End -->
+            </div>
+            <!-- Site Content End -->
+
+            <footer>
+                <div class="footer__top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer__col">
+                                    <div class="footer__logo">
+                                        <a href="#">
+                                            <img src="images/footer-logo.svg"
+                                                alt="logo" />
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Amet minim mollit non deserunt ullamco
+                                        est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit
+                                        mollit. Exercitation veniam consequat
+                                        sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer__col">
+                                    <h5>CUSTOMER SERVICES</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Delivery</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Terms and conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Refund Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer__col">
+                                    <h5>MY ACCOUNT</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Cart</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Wishlist</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Checkout</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">My account</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer__col">
+                                    <h5>CONTACT US</h5>
+                                    <ul>
+                                        <li class="mb-1">
+                                            <img src="images/showroom-icon.png"
+                                                alt="" />
+                                            <p class="mb-0">
+                                                <strong>Showroom:</strong> 1901
+                                                Thornridge Cir. Shiloh, Hawaii
+                                                81063
+                                            </p>
+                                        </li>
+                                        <li class="mb-1">
+                                            <img src="images/clock-icon.png" />
+                                            <p class="mb-0">
+                                                <strong>Opening hours:</strong>
+                                                mollit non deserunt ullamco
+                                            </p>
+                                        </li>
+                                        <li class="mb-1">
+                                            <img src="images/mail-icon.png"
+                                                alt="" />
+                                            <a href="#"><strong>Email:</strong>mollit
+                                                non deserunt</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <img src="images/phone-icon.png"
+                                                alt="" />
+                                            <a href="#"><strong>Hotline:</strong>
+                                                (808) 555-0111</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <div class="footer__middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="footer__col__sm">
+                                    <img src="images/vehicle-icon.png" alt="" />
+                                    <div>
+                                        <span>FREE DELIVERY</span>
+                                        <p>Amet minim mollit non deserunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="footer__col__sm mx-auto">
+                                    <img src="images/tools.png" alt="" />
+                                    <div>
+                                        <span>FREE INSTALLATION</span>
+                                        <p>Amet minim mollit non deserunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="footer__col__sm ml-auto">
+                                    <img src="images/vehicle-icon.png" alt="" />
+                                    <div>
+                                        <span>CUSTOMER SUPPORT 24 HOURS</span>
+                                        <p>Amet minim mollit non deserunt</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row py-4">
+                        <div class="col-12">
+                            <div class="copyrights text-center">
+                                <p class="mb-0">
+                                    &copy; 2020 Copyright Woodstock Furniture.
+                                    All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+        </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+
+</html>
